@@ -24,6 +24,14 @@
       .britt {
         font-family: BrittanySignature;
       }
+      @font-face {
+        font-family: gulf;
+        src: url("gulf.ttf");
+      }
+      .gulf {
+        font-family: gulf;
+      }
+
       .alice {
   font-family: "Alice", serif;
     }
@@ -274,11 +282,11 @@
   </head>
 
   <body
-    class="overflow-x-hidden overflow-y-hidden max-w-[600px] mx-auto h-screen bg-[#edd3fb] bg-cover bg-no-repeat"
+    class="overflow-x-hidden overflow-y-hidden max-w-[600px] mx-auto h-screen bg-[url('./images/background.jpg')] bg-contain bg-top"
   >
     <div class="relative cover">
       <video autoplay muted playsinline class="absolute w-full h-screen object-cover z-0">
-        <source src="./images/jelova.mp4" type="video/mp4" />
+        <source src="./images/vid.mp4" type="video/mp4" />
         Browser kamu tidak mendukung video HTML5.
       </video>
       
@@ -287,7 +295,7 @@
       >
         <div class="">
           <button
-            class="bg-[#9f81b9] px-5 py-2 cursor-pointer mt-[120vw] lg:mt-[22vw] text-[6.5vw] light lg:text-[2vw] mx-auto lilita text-sm text-white rounded-[70px] btn-hover"
+            class="bg-[#cae0cc] px-5 py-2 cursor-pointer mt-[120vw] lg:mt-[24vw] text-[6.5vw] light lg:text-[2vw] mx-auto lilita text-sm text-[#9d4e2c] rounded-[70px] btn-hover"
           >
             Open Invitation
           </button>
@@ -327,9 +335,9 @@
         
           <!-- Teks nama -->
           <p
-            class="text-[8vw] lg:text-[3vw] text-[#b583d4] text-center lilita lg:mb-[-5vw] mb-[-2vw]"
+            class="text-[6.5vw] lg:text-[3vw] mt-3 text-[#ffbd59] text-center gulf lg:mb-[-5vw] mb-[-2vw]"
           >
-            Jelove Nasrani Sumolang 
+          Fidelis Damian Irawan
           </p>
         
           <!-- Gambar kanan -->
